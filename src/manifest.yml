@@ -1,0 +1,9 @@
+---
+applications:
+- name: myapp-test200499
+  memory: 1023M
+  instances: 1
+  random-route: false
+  buildpacks:
+    - staticfile_buildpack
+  command: npm run start
